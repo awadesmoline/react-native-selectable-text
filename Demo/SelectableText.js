@@ -40,6 +40,7 @@ const mapHighlightsRanges = (value, highlights) => {
     data.push({
       isHighlight: true,
       text: value.slice(start, end),
+      id,
     })
 
     if (combinedHighlights[idx + 1]) {
